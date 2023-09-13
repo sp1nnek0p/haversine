@@ -39,7 +39,7 @@ if __name__ == "__main__":
     lon1 = 29.116736
     lat2 = -28.282985
     lon2 = 29.139095
-    print(rad.METERS)
-    print(haversine(lat1, lon1,lat2, lon2, rad.METERS), "Meters")
-    print(haversine(lat1, lon1,lat2, lon2, rad.KILOMETERS), "kilometers")
-    print(haversine(lat1, lon1,lat2, lon2, rad.MILES), "miles")
+
+    print(haversine(lat1, lon1,lat2, lon2, rad.METERS), rad.METERS.name)
+    print(haversine(lat1, lon1,lat2, lon2, rad.KILOMETERS), rad.KILOMETERS.name)
+    print(haversine(lat1, lon1,lat2, lon2, rad.MILES), rad.MILES.name)
